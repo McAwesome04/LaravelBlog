@@ -30,6 +30,10 @@
                 <a href="#" class="Create-account">Create account</a>
             </div>
         </div>
+        <div class="search-wrap1">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search..">
+        </div>
     </header>
 </body>
 

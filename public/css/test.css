@@ -106,7 +106,21 @@ header .container {
 header .header-wrap {
     display: flex;
     gap: 25px;
+    flex-basis: 80%;
+}
+
+header .search-wrap,
+.search-wrap1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 100%;
+}
+
+.search-wrap1 {
+    padding: 0 15px;
+    margin: 10px 0;
+    justify-content: center;
 }
 
 header input[type=text] {
@@ -131,6 +145,18 @@ header input[type=text] {
 
     header input[type=text] {
         border: 1px solid #ccc;
+    }
+}
+
+@media (max-width: 600px) {
+    header .search-wrap {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    header .search-wrap1 {
+        display: none;
     }
 }
 
