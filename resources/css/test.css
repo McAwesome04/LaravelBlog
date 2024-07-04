@@ -1,0 +1,165 @@
+/* Start Variables */
+:root {}
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+body {
+    font-family: 'Tilt Warp', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    position: relative;
+    color: white;
+}
+
+::-webkit-scrollbar {}
+
+::-webkit-scrollbar-track {}
+
+::-webkit-scrollbar-thumb {}
+
+::-webkit-scrollbar-thumb:hover {}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* End Global Rules */
+/* start header */
+header {
+    padding: 25px 0;
+    background-color: rgb(35 32 32 / 68%);
+}
+
+header .logo {
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+header .container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-wrap {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+header input[type=text] {
+    padding: 10px 15px;
+    border: none;
+    font-size: 17px;
+    border-radius: 25px;
+    color: white;
+    background-color: #000;
+    width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+
+    header input[type=text] {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    header input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+header .register {
+    display: flex;
+    text-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+header .register .Create-account {
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 15px;
+}
+
+header .register .Create-account:hover {
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+
+header .register .log-in {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+header .register .log-in:hover {
+    background-color: white;
+    color: black;
+}
