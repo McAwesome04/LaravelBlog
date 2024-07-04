@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
     <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
     <!-- Main Template CSS File -->
-    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="{{ asset('css/test.css') }}">
     <!-- Google Fonts -->
     <title>Document</title>
 </head>
@@ -18,7 +19,7 @@
     <header>
         <div class="container">
             <div class="header-wrap">
-                <div class="logo"><img src="imgs/images.png" alt=""></div>
+                <div class="logo"><img src="{{ asset('img/images.png') }}" alt=""></div>
                 <div class="search-wrap">
                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                     <input type="text" placeholder="Search..">
