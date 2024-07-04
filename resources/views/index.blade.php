@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
     <!-- Font Awesome Library -->
     <link rel="stylesheet" href="../css/all.min.css">
     <!-- Main Template CSS File -->
