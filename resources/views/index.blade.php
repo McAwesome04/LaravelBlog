@@ -21,8 +21,8 @@
             <div class="header-wrap">
                 <div class="logo"><img src="{{ asset('img/images.png') }}" alt=""></div>
                 <div class="search-wrap">
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    <input type="text" placeholder="Search..">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..">
                 </div>
             </div>
             <div class="register">
