@@ -18,8 +18,15 @@
 <body>
     <header>
         <div class="container">
+            <input type="checkbox" id="menu-toggle">
+                    <div class="overlay"></div>
+                    <div class="msidebar">
+                        <div class="scontainer">
+                            <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-x"></i></label>
+                        </div>
+                    </div>
             <div class="header-wrap">
-                <div class="logo"><img src="{{ asset('img/images.png') }}" alt=""></div>
+                <a href="#" class="logo"><img src="{{ asset('img/images.png') }}" alt=""></a>
                 <div class="search-wrap">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" placeholder="Search..">
