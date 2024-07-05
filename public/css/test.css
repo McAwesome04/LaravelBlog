@@ -37,8 +37,14 @@ img {
     position: relative;
 }
 
+.flex {
+    display: flex;
+}
+
 body {
-    font-family: 'Tilt Warp', sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.4px;
     overflow-x: hidden !important;
     margin: 0;
     padding: 0;
@@ -89,29 +95,30 @@ body {
 header {
     padding: 10px 0;
     background-color: rgb(35 32 32 / 68%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header .logo {
     border-radius: 50%;
-    max-width: 50px;
+    max-width: 40px;
 }
 
 header .container {
-    display: flex;
     gap: 25px;
     align-items: center;
     justify-content: space-between;
 }
 
 header .header-wrap {
-    display: flex;
     gap: 25px;
     flex-basis: 80%;
 }
 
 header .search-wrap,
 .search-wrap1 {
-    display: flex;
     align-items: center;
     gap: 10px;
     width: 100%;
@@ -160,32 +167,31 @@ header input[type=text] {
     }
 }
 
-header .register {
-    display: flex;
+.register {
     text-wrap: nowrap;
     gap: 20px;
     align-items: center;
 }
 
-header .register .Create-account {
+.register .Create-account {
     border-radius: 10px;
     color: white;
     border: 1px solid white;
     padding: 12px 15px;
 }
 
-header .register .Create-account:hover {
+.register .Create-account:hover {
     color: black;
     border-color: black;
     background-color: white;
 }
 
-header .register .log-in {
+.register .log-in {
     padding: 10px 10px;
     border-radius: 10px;
 }
 
-header .register .log-in:hover {
+.register .log-in:hover {
     background-color: white;
     color: black;
 }
@@ -200,7 +206,6 @@ header .register .log-in:hover {
     background-color: #000000;
     overflow-x: hidden;
     z-index: 1;
-    display: flex;
     justify-content: center;
 }
 
@@ -263,15 +268,52 @@ input::after {
 }
 
 #menu-toggle:checked~.msidebar {
-    width: 250px;
+    width: 60%;
     height: 100%;
 }
 
 .msidebar .scontainer {
-    display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 200px 20px;
     width: 550px;
     align-items: center;
 }
+
+/* End Header */
+/* Start Landing */
+.landing {
+    padding: 85px 0;
+}
+
+.landing .container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.sections {
+    flex-direction: column;
+    width: 240px;
+    gap: 25px;
+}
+
+.welcome {
+    padding: 25px 20px;
+    border-radius: 20px;
+    background-color: #282b2f;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.sections .register {
+    flex-direction: column-reverse;
+    gap: 5px;
+}
+
+.sections .sub-sections {
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* End Landing */
