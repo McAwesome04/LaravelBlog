@@ -286,6 +286,12 @@ input::after {
     padding: 85px 0;
 }
 
+@media (max-width: 600px) {
+    .landing {
+        padding: 150px 0;
+    }
+}
+
 .landing .container {
     flex-direction: row;
     flex-wrap: nowrap;
