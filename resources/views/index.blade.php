@@ -190,6 +190,7 @@
             </div>
         </div>
     </section>
+    <script src="js/smooth.js"></script>
     <script src="{{ asset('js/test.js') }}"></script>
 </body>
 
