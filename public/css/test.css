@@ -30,6 +30,14 @@ a {
     transition: 0.4s;
 }
 
+button {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 img {
     max-width: 100%;
 }
@@ -50,6 +58,12 @@ body {
     background-image: linear-gradient(90deg, #000000, #300c2a);
     position: relative;
     color: white;
+    line-height: 1.4;
+}
+
+.active {
+    font-weight: bolder !important;
+    text-decoration: underline;
 }
 
 ::-webkit-scrollbar {}
@@ -296,7 +310,7 @@ header .section {
 
 .sections {
     flex-direction: column;
-    width: 240px;
+    width: 290px;
     gap: 45px;
 }
 
@@ -393,6 +407,104 @@ header .section {
 
 /* End sections */
 /* Start Posts */
+.posts {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.posts .land-nav {
+    gap: 5px;
+}
+
+.posts .land-nav h3 {
+    padding: 10px 10px;
+    font-weight: 400;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.posts .land-nav h3:hover {
+    background-color: #3b49df4d;
+}
+
+.posts .cards {
+    padding: 20px 15px 30px;
+    background-color: #3e2846c9;
+    border-radius: 10px;
+}
+
+.p-info {
+    gap: 10px;
+}
+
+.p-info a img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.p-info .p-w p {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.cards>a {
+    position: relative;
+    left: 40px;
+}
+
+.cards h1:hover {
+    color: #4254e3;
+}
+
+.interaction {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reactions {
+    position: relative;
+    left: 20px;
+}
+
+.reactions button:not(:nth-child(0)) {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.reactions button {
+    padding: 5px 10px;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #cacaca;
+}
+
+.reactions button:hover {
+    background-color: rgb(59 73 223 / 30%);
+}
+
+.reactions>button span:not(:last-child) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #300c2a;
+    border: 1px solid #300c2a;
+    border-radius: 15px;
+    margin-right: -0.75em;
+    width: 22px;
+    height: 22px;
+}
+
+.comments i {
+    margin-right: 10px
+}
+
+.bookmark {
+    align-items: center;
+    gap: 20px;
+    color: #cacaca;
+}
 
 /* End Posts */
 /* End Landing */

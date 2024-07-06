@@ -133,11 +133,43 @@
                     <p>Made with love By DeVilHunterN1 AND McAwesome04. This Blog ©2024.</p>
                 </div>
             </div>
-            <div class="posts">
-                <div class="land-nav">
-                    <div class="relavant">Relavant</div>
-                    <div class="latest">Latest</div>
-                    <div class="top">Top</div>
+            <div class="posts flex">
+                <div class="land-nav flex">
+                    <a href="#"><h3 class="active relavant">Relavant</h3></a>
+                    <a href="#"><h3 class="latest">Latest</h3></a>
+                    <a href="#"><h3 class="top">Top</h3></a>
+                </div>
+                <div class="cards">
+                    <div class="p-info flex">
+                        <a href="#"><img src="{{ asset('img/avatar-02.png') }}" alt=""></a>
+                        <div class="p-w">
+                            <a href="#"><h5 class="p-name">Hima najy</h5></a>
+                            <p class="p-date">6 july</p>
+                        </div>
+                    </div>
+                    <a href="#"><h1>look at the second creator name</h1></a>
+                    <!-- <div class="selceted-hash">
+                        <a href="#"></a>
+                    </div> -->
+                    <div class="interaction flex">
+                        <div class="reactions flex">
+                            <button class="flex">
+                                <span><i class="fa-solid fa-face-smile" style="color: #c7c707;"></i></span>
+                                <span><i class="fa-regular fa-face-surprise" style="color: #c7c707;"></i></span>
+                                <span><i class="fa-solid fa-heart"  style="color: red;"></i></span>
+                                <span class="3dad" style="margin-left: 20px;">3 reactions</span>
+                            </button>
+                            <div class="comments">
+                                <button><i class="fa-regular fa-comment"></i><span>1</span> comment</button>
+                            </div>
+                        </div>
+                        <div class="comments-book flex">
+                            <div class="bookmark flex">
+                                <div class="read">13 min read</div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="hashtag">
