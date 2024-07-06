@@ -451,6 +451,9 @@ header .section {
 .cards>a {
     position: relative;
     left: 40px;
+    width: 96%;
+    display: block;
+    word-break: break-all;
 }
 
 .cards h1:hover {
