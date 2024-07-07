@@ -17,6 +17,9 @@ class PostController extends Controller
     }
 
     public function show($postId){
-        return view('posts.show');
+        $singlePost = [
+            'id' => 1, 'title' => 'PHP', 'description' => 'This is a description.', 'posted_by' => 'Yamin', 'created_at' => '2022-10-15 16:04:00'
+        ];
+        return view('posts.show', ['post' => $singlePost]);
     }
 }
