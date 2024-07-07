@@ -591,6 +591,12 @@ header .section {
     left: 0;
 }
 
+@media (max-width: 300px) {
+    .new-u-container>p:last-of-type:after {
+        top: 90px;
+    }
+}
+
 .new-u-container>div:last-of-type {
     margin-top: 50px;
 }
