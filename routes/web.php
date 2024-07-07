@@ -8,3 +8,6 @@ Route::get('/posts/{post}', [PostController::class, 'show']);
 Route::get('/index', function(){
     return view('index');
 });
+Route::get('/new-user', function(){
+    return view('new-user');
+});

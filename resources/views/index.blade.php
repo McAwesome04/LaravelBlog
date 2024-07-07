@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="{{ asset('css/test.css') }}">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -32,7 +32,7 @@
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
                     <div class="register flex">
                         <a href="#" class="log-in">Log In</a>
-                        <a href="#" class="Create-account">Create account</a>
+                        <a href="new-user" class="create-account">Create account</a>
                     </div>
                 </div>
                 <div class="sub-sections flex">
@@ -80,7 +80,7 @@
             </div>
             <div class="register flex">
                 <a href="#" class="log-in">Log In</a>
-                <a href="#" class="Create-account">Create account</a>
+                <a href="new-user" class="create-account">Create account</a>
             </div>
         </div>
         <div class="search-wrap1 flex">
@@ -96,7 +96,7 @@
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
                     <div class="register flex">
                         <a href="#" class="log-in">Log In</a>
-                        <a href="#" class="Create-account">Create account</a>
+                        <a href="new-user" class="create-account">Create account</a>
                     </div>
                 </div>
                 <div class="sub-sections flex">
