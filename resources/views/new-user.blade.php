@@ -27,16 +27,16 @@
                             <img src="{{ asset('img/google.png') }}" alt="">
                             <div class="flex"><span>Sign Up with Google</span></div>
                         </div>
-                    </a href="#">
+                    </a>
                     <a href="sign-up-email" class="sign-up flex">
                         <div class="flex" style="width:100%;">
                             <img src="{{ asset('img/envelope.png') }}" alt="">
                             <div class="flex"><span>Sign Up with Email</span></div>
                         </div>
-                    </a href="#">
+                    </a>
             </div>
             <p>By signing up, you are agreeing to our privacy policy, terms of use and code of conduct.</p>
-            <div>Already have an account? <a href="#">Log in</a>.</div>
+            <div>Already have an account? <a href="log-in">Log in</a>.</div>
         </div>
     </section>
     <script src="js/smooth.js"></script>

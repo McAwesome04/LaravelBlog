@@ -14,3 +14,12 @@ Route::get('/new-user', function(){
 Route::get('/sign-up-email', function(){
     return view('sign-up-email');
 });
+Route::get('/verify-c-a', function(){
+    return view('verify-c-a');
+});
+Route::get('/log-in', function(){
+    return view('log-in');
+});
+Route::get('/forget-pass', function(){
+    return view('forget-pass');
+});

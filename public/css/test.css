@@ -533,6 +533,7 @@ header .section {
 @media (max-width: 640px) {
     .new-u-container {
         max-width: 100%;
+        padding: 0 10px;
     }
 }
 
@@ -558,6 +559,7 @@ header .section {
     gap: 20px;
 }
 
+/* Start Creation Form */
 #myform {
     display: flex;
     flex-direction: column;
@@ -652,6 +654,7 @@ header .section {
     color: red;
 }
 
+/* End Creation Form */
 .sign-up {
     align-items: center;
     width: 100%;

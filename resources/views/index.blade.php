@@ -31,7 +31,7 @@
                     <h3>This Blog has an unknown community of <span> 1 </span> amazing people like you</h3>
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
                     <div class="register flex">
-                        <a href="#" class="log-in">Log In</a>
+                        <a href="log-in" class="log-in">Log In</a>
                         <a href="new-user" class="create-account">Create account</a>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="register flex">
-                <a href="#" class="log-in">Log In</a>
+                <a href="log-in" class="log-in">Log In</a>
                 <a href="new-user" class="create-account">Create account</a>
             </div>
         </div>
@@ -95,7 +95,7 @@
                     <h3>This Blog has an unknown community of <span> 1 </span> amazing people like you</h3>
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
                     <div class="register flex">
-                        <a href="#" class="log-in">Log In</a>
+                        <a href="log-in" class="log-in">Log In</a>
                         <a href="new-user" class="create-account">Create account</a>
                     </div>
                 </div>
