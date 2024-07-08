@@ -11,3 +11,6 @@ Route::get('/index', function(){
 Route::get('/new-user', function(){
     return view('new-user');
 });
+Route::get('/sign-up-email', function(){
+    return view('sign-up-email');
+});

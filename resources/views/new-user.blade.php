@@ -28,7 +28,7 @@
                             <div class="flex"><span>Sign Up with Google</span></div>
                         </div>
                     </a href="#">
-                    <a href="#" class="sign-up flex">
+                    <a href="sign-up-email" class="sign-up flex">
                         <div class="flex" style="width:100%;">
                             <img src="{{ asset('img/envelope.png') }}" alt="">
                             <div class="flex"><span>Sign Up with Email</span></div>
