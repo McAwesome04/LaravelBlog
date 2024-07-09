@@ -1,0 +1,1 @@
+we are in destroy.blade.php
