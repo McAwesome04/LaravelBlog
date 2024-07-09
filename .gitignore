@@ -1,0 +1,17 @@
+# Ignore .env file
+.env
+
+# Ignore vendor directory (often used in PHP projects with Composer)
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore all .pdf files
+*.pdf
+
+# Ignore all files in a directory
+directory_name/*
+
+# Exclude specific files
+!important_file.txt
