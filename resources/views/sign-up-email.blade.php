@@ -20,7 +20,7 @@
         <div class="new-u-container email flex">
             <div class="sign-up-bundle s-email flex">
                 <h3>Create your account</h3>
-                <form class="flex" action="verify-c-a" method="post" id="myform">
+                <form class="flex" action="verify-c-a" id="myform">
                     <div class="form-con flex">
                         <label for="fileInput">Profile image</label>
                         <input type="file" id="fileInput" name="fileInput" accept="image/*">

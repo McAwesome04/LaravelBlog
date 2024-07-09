@@ -123,7 +123,7 @@
                     <div id="errorMessage" class="error"></div>
                 </form>
                 <p>By signing in, you are agreeing to our privacy policy, terms of use and code of conduct.</p>
-                <div>New to Blog Community? <a href="sign-up">Create account</a>.</div>
+                <div>New to Blog Community? <a href="new-user">Create account</a>.</div>
         </div>
     </section>
     <script src="js/smooth.js"></script>

@@ -25,3 +25,21 @@ landnav.forEach(li => {
 
 });
 
+document.getElementById('revealBtn').addEventListener('click', function () {
+    const card = document.getElementById('cardContent');
+    const dimmedBg = document.getElementById('dimmedBg');
+    if (card.style.display === 'none' || card.style.display === '') {
+        card.style.display = 'block';
+        dimmedBg.style.display = 'block'; // Show the dimmed background
+    } else {
+        card.style.display = 'none';;
+        dimmedBg.style.display = 'none'; // Hide the dimmed background
+    }
+});
+
+document.getElementById('dimmedBg').addEventListener('click', function () {
+    const card = document.getElementById('cardContent');
+    const dimmedBg = document.getElementById('dimmedBg');
+    card.style.display = 'none';
+    dimmedBg.style.display = 'none'; // Hide the dimmed background when clicking outside the card
+});

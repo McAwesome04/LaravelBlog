@@ -78,14 +78,51 @@
                 <input type="text" placeholder="Search..">
                 </div>
             </div>
-            <div class="register flex">
+            <div class="register flex none">
                 <a href="log-in" class="log-in">Log In</a>
                 <a href="new-user" class="create-account">Create account</a>
             </div>
+            <div class="register s flex">
+            <a href="#" class="create-post">Create Post</a>
+                <button class="noti">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                <div class="signed-in-card flex">
+                    <button class="btn-logo" id="revealBtn">
+                        <img src="{{ asset('img/avatar-02.png') }}" alt="Logo">
+                    </button>
+                    <div class="dimmed" id="dimmedBg"></div>
+                    <div class="card" id="cardContent">
+                        <a class="flex" href="#">
+                            <h4>Hima Najy</h4>
+                            <p>@nerm</p>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="#">Create Post</a>
+                            </li>
+                            <li>
+                                <a href="#">Reading List</a>
+                            </li>
+                            <li>
+                                <a href="#">Setting</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Sign Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="search-wrap1 flex">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="Search..">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..">
         </div>
     </header>
     <section class="landing">
