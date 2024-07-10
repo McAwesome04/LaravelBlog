@@ -16,11 +16,10 @@
     <title>New Post</title>
     <style>
         .new-post{
-            padding-top: 55px;
+            padding-top: 75px;
         }
         form {
             flex-direction: column;
-            gap: 30px;
             display: flex;
             width: 100%;
         }
@@ -39,6 +38,7 @@
             color: white;
             background-color: transparent;
             resize: none;
+            font-size: 40px;
         }
         textarea {;
             font-size: 25px;
@@ -52,9 +52,6 @@
             <div class="header-wrap flex" style="align-items: center;">
                 <a href="#" class="logo"><img src="{{ asset('img/images.png') }}" alt=""></a>
                 <h4>Create Post</h4>
-            </div>
-            <div class="register s flex">
-                <a href="#" class="create">Create Post</a>
             </div>
         </div>
     </header>
