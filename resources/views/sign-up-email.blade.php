@@ -55,18 +55,19 @@
                         <input type="password" id="password" placeholder="Please Type Your password Here" required>
                         <button type="button" class="toggle-password" onclick="togglePassword()"> <i class="fas fa-eye" id="toggleIcon"></i></button>
                         </div>
+                        <div id="errorMessage1" class="error"></div>
                     </div>
                     <div class="form-con flex">
                         <div class="req">
-                        <label for="password-confirmation">Password Confirmation</label>
-                        <span>*</span>
+                            <label for="password-confirmation">Password Confirmation</label>
+                            <span>*</span>
                         </div>
                         <input type="password" id="password-confirmation" placeholder="Please Type Your password again Here" required>
                     </div>
+                    <div id="errorMessage" class="error"></div>
                     <div class="form-con flex">
                         <input type="submit" value="Sign Up" id="submitBtn">
                     </div>
-                    <div id="errorMessage" class="error"></div>
                 </form>
             </div>
         </div>
@@ -76,6 +77,7 @@
                 document.addEventListener('DOMContentLoaded', function () {
             const form = document.getElementById('myform');
             const errorMessage = document.getElementById('errorMessage');
+            const errorMessage1 = document.getElementById('errorMessage1');
 
             form.addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -86,8 +88,10 @@
                 const passwordRegex = /^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
                 if (!passwordRegex.test(password)) {
-                    errorMessage.textContent = 'Password must be at least 8 characters long, contain at least one capital letter, and one number.';
+                    errorMessage1.textContent = 'Password must be at least 8 characters long, contain at least one capital letter, and one number.';
                     return;
+                } else {
+                    errorMessage1.textContent = '';
                 }
                 // Check if passwords match
                 if (password !== confirmPassword) {

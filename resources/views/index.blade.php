@@ -30,7 +30,10 @@
                 <div class="welcome flex">
                     <h3>This Blog has an unknown community of <span> 1 </span> amazing people like you</h3>
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
-                    <div class="register flex">
+                    <div class="register s flex">
+                        <a href="create-post" class="create post">Create Post</a>
+                    </div>
+                    <div class="register none flex">
                         <a href="log-in" class="log-in">Log In</a>
                         <a href="new-user" class="create-account">Create account</a>
                     </div>
@@ -80,10 +83,10 @@
             </div>
             <div class="register flex none">
                 <a href="log-in" class="log-in">Log In</a>
-                <a href="new-user" class="create-account">Create account</a>
+                <a href="new-user" class="create account">Create account</a>
             </div>
             <div class="register s flex">
-            <a href="#" class="create-post">Create Post</a>
+            <a href="create-post" class="create post">Create Post</a>
                 <button class="noti">
                     <i class="fa-regular fa-bell"></i>
                 </button>
@@ -102,7 +105,7 @@
                                 <a href="#">Dashboard</a>
                             </li>
                             <li>
-                                <a href="#">Create Post</a>
+                                <a href="create-post">Create Post</a>
                             </li>
                             <li>
                                 <a href="#">Reading List</a>
@@ -133,7 +136,7 @@
                     <p>We're a place where folk share, stay up-to-date and grow their careers.</p>
                     <div class="register flex">
                         <a href="log-in" class="log-in">Log In</a>
-                        <a href="new-user" class="create-account">Create account</a>
+                        <a href="new-user" class="create">Create account</a>
                     </div>
                 </div>
                 <div class="sub-sections flex">
@@ -194,10 +197,10 @@
                                 <span><i class="fa-solid fa-face-smile" style="color: #c7c707;"></i></span>
                                 <span><i class="fa-regular fa-face-surprise" style="color: #c7c707;"></i></span>
                                 <span><i class="fa-solid fa-heart"  style="color: red;"></i></span>
-                                <span class="3dad" style="margin-left: 20px;">3 reactions</span>
+                                <span class="3dad" style="margin-left: 20px;">3 <span class="label">reactions</span></span>
                             </button>
                             <div class="comments">
-                                <button><i class="fa-regular fa-comment"></i><span>1</span> comment</button>
+                                <button><i class="fa-regular fa-comment"></i><span class="3dad">1</span> <span class="label">comment</span></button>
                             </div>
                         </div>
                         <div class="comments-book flex">
@@ -209,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hashtag">
+            <div class="hashtag none">
                     <div class="hash">
                         <div class="hash-head">
                             <h2></h2>

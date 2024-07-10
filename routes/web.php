@@ -23,3 +23,6 @@ Route::get('/log-in', function(){
 Route::get('/forget-pass', function(){
     return view('forget-pass');
 });
+Route::get('/create-post', function(){
+    return view('create-post');
+});

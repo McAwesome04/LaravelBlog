@@ -70,6 +70,10 @@ body {
     display: none;
 }
 
+.error {
+    color: red;
+}
+
 ::-webkit-scrollbar {}
 
 ::-webkit-scrollbar-track {}
@@ -275,14 +279,14 @@ header input[type=text] {
     font-size: 22px;
 }
 
-.register .create-account {
+.register .create {
     border-radius: 10px;
     color: white;
     border: 1px solid white;
     padding: 12px 15px;
 }
 
-.register .create-account:hover {
+.register .create:hover {
     color: black;
     border-color: black;
     background-color: white;
@@ -372,6 +376,12 @@ header input::after {
 #menu-toggle:checked~.msidebar {
     width: 60%;
     height: 100%;
+}
+
+@media (max-width: 600px) {
+    #menu-toggle:checked~.msidebar {
+        width: 100%;
+    }
 }
 
 .msidebar .scontainer {
@@ -549,7 +559,18 @@ header .section {
     left: 40px;
     width: 96%;
     display: block;
-    word-break: break-all;
+    word-break: break-word;
+}
+
+@media (max-width: 500px) {
+
+    .cards>a {
+        width: 90%;
+    }
+
+    .cards>a h1 {
+        font-size: 28px;
+    }
 }
 
 .cards h1:hover {
@@ -567,8 +588,7 @@ header .section {
     align-items: center;
 }
 
-.reactions button:not(:nth-child(0)) {
-    margin-left: 10px;
+.reactions button {
     align-items: center;
 }
 
@@ -596,6 +616,12 @@ header .section {
     height: 22px;
 }
 
+@media (max-width: 640px) {
+    .reactions .label {
+        display: none;
+    }
+}
+
 .comments i {
     margin-right: 10px
 }
@@ -610,7 +636,7 @@ header .section {
 /* End Landing */
 /* Start Create Account */
 .new-user {
-    padding: 40px 8px;
+    padding: 30px 8px;
     justify-content: center;
 }
 
@@ -657,14 +683,14 @@ header .section {
 
 /* Start Creation Form */
 #myform {
-    display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
 }
 
 #myform .form-con {
     flex-direction: column;
     gap: 12px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -746,10 +772,6 @@ header .section {
     top: 24px;
 }
 
-.error {
-    color: red;
-}
-
 /* End Creation Form */
 .sign-up {
     align-items: center;
@@ -797,7 +819,7 @@ header .section {
 }
 
 .new-u-container>div:last-of-type {
-    margin-top: 50px;
+    margin: 20px 0;
 }
 
 .new-u-container>div:last-of-type a {
